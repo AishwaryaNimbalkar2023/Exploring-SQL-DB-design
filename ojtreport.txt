@@ -1,0 +1,54 @@
+Rollno -23111002
+
+Assignment no 1)In assignment 1 given  employee schema and queries.
+in that details about emp such as their empid,days,arrivaltime and departtime
+--->learned to write sql command to fetch information from database.
+
+Assignment no 2)queries related to examresults schema
+-->understand how to write optimize query 
+-->handling large data efficiently
+
+Assignment no 3)trigger-insert record into list table based on the count specified in object table
+and id. count value start from 1 to specified count of object table
+-->trigger fires after insert record in the object table
+-->trigger automatically insert record into list table with a specified count and id
+-->trigger use recursive function which generate the sequence from 1 upto value of new count
+
+Assignment no 4)related to trigger  if student is passed in exam then they can't be attempt
+ exam repeately 
+--->trigger execute before inserting a new record into table
+--->trigger execute before update a record from table
+--->if student is already passed exam it prevent the new attempt by raising an error message
+    (you have already pass);
+
+Assignment no 5)
+Q.1)insert values from three different fields, f11, f21, and f31 alternatively 
+and in sequenc into table t4. These fields are assumed to be sorted in ascending order.
+-->learn how to arrange  data effectively using sql which is essential for managing databases 
+ efficiently.
+
+Q.2)inserts data from table t4 into table t5 arranging it sequentially across columns t51, t52, 
+t53 and t54
+-->It uses CASE statements within MAX functions to insert the data from the single column f4
+ into the respective columns t51, t52, t53, and t54 based on the row number
+
+Assignment no 6)
+Q.1) create schema of shop which store information about order,product,productprice,orderdetails 
+and write a query to find total_amount of each ordid.
+-->learned how to join multiple table
+-->calculates the total amount for each order by multiplying the quantity of product with
+respective prices and groups by order ID and date.
+
+Q.2)add productqtydiscount column and then find total_amount after given discount
+-->understand how to write complex and subquery
+-->gives qty based discount on each product
+
+Q.3) add monthdiscount and write query to find out total_bill of each customer of 
+each month after giving discount
+-->determine the total bill of each customer for each month after applying monthly discounts
+
+Assignment no 7)create a schema of exam
+--> learn concept normalization
+--> understand how to design schema
+-->manage information related to batch,semester,student,teacher,examdetails and examresults
+-->constraints that maintaining data integrity,preventing data anomalies
